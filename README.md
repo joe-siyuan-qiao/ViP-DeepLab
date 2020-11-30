@@ -10,8 +10,4 @@ ViP-DeepLab approaches it by jointly performing monocular depth estimation and v
 We name this joint task as Depth-aware Video Panoptic Segmentation, and propose a new evaluation metric along with two derived datasets for it.
 This repository includes the datasets and the toolkits.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="http://www.cs.jhu.edu/~syqiao/ViP-DeepLab/ViP-DeepLab_v3.mp4" type="video/mp4">
-  </video>
-</figure>
+[![Demo](readme_srcs/ViP-DeepLab.gif)](www.cs.jhu.edu/~syqiao/ViP-DeepLab/ViP-DeepLab_v3.mp4)
