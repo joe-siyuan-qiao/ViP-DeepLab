@@ -1,7 +1,7 @@
 ## Cityscapes-DVPS
 
-Please download the depth annoations from [link](https://link) and extract it to
-here. It will be a folder named `video_sequence`. Then,
+Please download the depth annoations from [link](https://drive.google.com/file/d/147esC0jEhWQCCEMOHj5nYGCPnuwmQrl4/view?usp=sharing)
+and extract it to here. It will be a folder named `video_sequence`. Then,
 ```bash
 git clone https://github.com/mcahny/vps.git
 ```
