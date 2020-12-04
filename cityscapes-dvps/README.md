@@ -1,0 +1,28 @@
+## Cityscapes-DVPS
+
+Please download the depth annoations from [link](https://link) and extract it to
+here. It will be a folder named `video_sequence`. Then,
+```bash
+git clone https://github.com/mcahny/vps.git
+```
+and follow [DATASET.md](https://github.com/mcahny/vps/blob/master/docs/DATASET.md)
+to prepare Cityscapes-VPS.
+Then, run the following scripts to generate __train__ and __val__ splits of
+Cityscapes-DVPS:
+```bash
+python copy_image.py --split train
+python copy_image.py --split val
+python copy_gt.py --split train
+python copy_gt.py --split val
+python copy_video_sequence.py --split train
+python copy_video_sequence.py --split val
+```
+After the above procedures, Cityscapes-DVPS is ready and located in the folder
+`video_sequence`.
+
+To evaluate the DVPQ performance,
+```bash
+python eval_dvpq.py --pan_dir PAN_DIR --depth_dir DEPTH_DIR --eval_frames
+{1,2,3,4} --depth_thres {0.5,0.25,0.1}
+```
+The output will be DVPQ, DVPQ-Th, and DVPQ-St.
