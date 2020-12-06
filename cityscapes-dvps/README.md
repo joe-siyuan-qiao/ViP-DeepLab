@@ -3,9 +3,9 @@
 Please download the depth annoations from [link](https://drive.google.com/file/d/147esC0jEhWQCCEMOHj5nYGCPnuwmQrl4/view?usp=sharing)
 and extract it to here. It will be a folder named `video_sequence`. Then,
 ```bash
-git clone https://github.com/mcahny/vps.git
+git clone https://github.com/joe-siyuan-qiao/vps.git
 ```
-and follow [DATASET.md](https://github.com/mcahny/vps/blob/master/docs/DATASET.md)
+and follow [DATASET.md](https://github.com/joe-siyuan-qiao/vps/blob/master/docs/DATASET.md)
 to prepare Cityscapes-VPS.
 Then, run the following scripts to generate __train__ and __val__ splits of
 Cityscapes-DVPS:
