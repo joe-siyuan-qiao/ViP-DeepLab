@@ -1,6 +1,6 @@
 ## SemKITTI-DVPS
 
-Please download the annoations from [link](https://drive.google.com/file/d/1cCn1yeu2dmT4CnvkOyItxARFBXpDdu-0/view?usp=sharing)
+Please download the annotations from [link](https://drive.google.com/file/d/1cCn1yeu2dmT4CnvkOyItxARFBXpDdu-0/view?usp=sharing)
 and extract it to here. It will be a folder named `video_sequence`.
 Then, download the KITTI odometry color images from
 [link](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
@@ -15,6 +15,7 @@ After the above procedures, SemKITTI-DVPS is ready and located in the folder
 The filenames of the depth annotations include the focal length in the last
 segment. For example, the focal length of
 `000000_000000_depth_718.8560180664062.png` is 718.8560180664062.
+Depth maps are multiplied by 256 and saved as uint16 PNG images.
 
 To evaluate the DVPQ performance,
 ```bash
