@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this repository, we present the datasets and the toolkits of [ViP-DeepLab](https://arxiv).
+In this repository, we present the datasets and the toolkits of [ViP-DeepLab](https://arxiv.org/abs/2012.05258).
 ViP-DeepLab is a unified model attempting to tackle the long-standing and challenging inverse projection problem in vision, which we model as restoring the point clouds from perspective image sequences while providing each point with instance-level semantic interpretations.
 Solving this problem requires the vision models to predict the spatial location, semantic class,
 and temporally consistent instance label for each 3D point.
@@ -10,7 +10,7 @@ ViP-DeepLab approaches it by jointly performing monocular depth estimation and v
 We name this joint task as Depth-aware Video Panoptic Segmentation (DVPS), and propose a new evaluation metric along with two derived datasets for it.
 This repository includes the datasets SemKITTI-DVPS and Cityscapes-DVPS along with the evaluation toolkits.
 
-[![Demo](readme_srcs/ViP-DeepLab.gif)](https://www.cs.jhu.edu/~syqiao/ViP-DeepLab/ViP-DeepLab_v3.mp4)
+[![Demo](readme_srcs/ViP-DeepLab.gif)](https://youtu.be/XR4HFiwwao0)
 
 
 ## Datasets
@@ -37,9 +37,9 @@ The dataset and the evaluation toolkit are in the folder `cityscapes-dvps`.
 If you use the datasets in your research, please cite our project.
 ```BibTeX
 @article{vip_deeplab,
-  title={ViP-DeepLab},
-  author={Authors},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  title={ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation},
+  author={Siyuan Qiao and Yukun Zhu and Hartwig Adam and Alan Yuille and Liang-Chieh Chen},
+  journal={arXiv preprint arXiv:2012.05258},
   year={2020}
 }
 ```
